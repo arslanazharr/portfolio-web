@@ -26,7 +26,7 @@ const Navbar = () => {
             <a href="mailto:arslanofcl@gmail.com" target="new">
               Email
             </a>
-            <a href="">Github</a>
+            <a href="https://github.com/arslanazharr/">Github</a>
             <a href="https://www.linkedin.com/in/arslanazharr/" target="new">
               LinkedIn
             </a>
