@@ -1,0 +1,48 @@
+.contact-heading {
+  margin: 200px 0px 50px 70px;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.contact-paragraph {
+  margin: 0px 70px 0px 70px;
+  font-size: 2rem;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  .contact-heading {
+    font-size: 3rem;
+    margin: 140px 0 50px 70px;
+    text-align: left;
+  }
+  .contact-paragraph {
+    margin-left: 70px;
+    font-size: 2rem;
+    width: 650px;
+  }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  .contact-heading {
+    font-size: 2.5rem;
+    margin: 120px 0 30px 70px;
+    text-align: left;
+  }
+  .contact-paragraph {
+    margin-left: 70px;
+    font-size: 1.5rem;
+    width: auto;
+  }
+}
+
+@media (min-width: 0) and (max-width: 640px) {
+  .contact-heading {
+    font-size: 2rem;
+    margin: 100px 10px 20px 20px;
+    text-align: left;
+  }
+  .contact-paragraph {
+    margin-left: 20px;
+    font-size: 1.25rem;
+    width: auto;
+  }
+}

@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.box {
+  width: 440px;
+  margin-right: 20px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.box img {
+  width: 100%;
+  background: linear-gradient(to top, #eecfcf, #34364d);
+  padding: 25px;
+  border-radius: 20px;
+  height: auto;
+}
+
+.overlay {
+  color: #e5e4df;
+  background-color: #1a1917;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  transition: all 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:hover .overlay {
+  top: 0;
+  transform: scale(2);
+}
+
+.work-heading {
+  margin: 200px 0px 50px 70px;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  .container {
+    display: grid;
+  }
+  .box {
+    width: 500px;
+    margin: 10px;
+  }
+  .work-heading {
+    font-size: 3rem;
+    margin: 140px 0 50px 70px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .container {
+    display: grid;
+  }
+  .box {
+    width: 400px;
+    margin: 10px;
+  }
+  .work-heading {
+    font-size: 2.5rem;
+    margin: 120px 0 30px 70px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 0) and (max-width: 640px) {
+  .container {
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .box {
+    width: 300px;
+    margin: 10px;
+  }
+  .work-heading {
+    font-size: 2rem;
+    margin: 100px 0 20px 20px;
+    text-align: left;
+  }
+  .overlay {
+    font-size: x-small;
+  }
+}

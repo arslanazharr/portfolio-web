@@ -1,0 +1,48 @@
+footer {
+  text-align: right;
+  margin: 200px 70px 20px 70px;
+}
+
+.quote {
+  font-size: larger;
+  text-align: left;
+  margin-bottom: 120px;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  footer {
+    margin: 140px 0 100px 70px;
+    text-align: left;
+  }
+  .quote {
+    font-size: larger;
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  footer {
+    margin: 120px 0 100px 70px;
+    text-align: left;
+  }
+  .quote {
+    font-size: large;
+    margin-bottom: 60px;
+  }
+  footer p {
+    font-size: medium;
+  }
+}
+
+@media (min-width: 0) and (max-width: 640px) {
+  footer {
+    margin: 100px 0 100px 20px;
+    text-align: left;
+  }
+  .quote {
+    font-size: medium;
+    margin-bottom: 40px;
+  }
+  footer p {
+    font-size: small;
+  }
+}
