@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-web/static/css/main.4c695e98.css",
+    "main.js": "/portfolio-web/static/js/main.8f52916d.js",
+    "static/media/front.svg": "/portfolio-web/static/media/front.a70d3954803de68ad64e0ceef4c0fa5e.svg",
+    "static/media/pc.svg": "/portfolio-web/static/media/pc.6b7d863d87f4ee88a94f205569189ba2.svg",
+    "static/media/resturant.svg": "/portfolio-web/static/media/resturant.5285c575b416fc57940b3eca26c806da.svg",
+    "static/media/pakistani landscape.svg": "/portfolio-web/static/media/pakistani landscape.0aa3646f6d3f9f8160dfcba88f7445c1.svg",
+    "static/media/portfolio.svg": "/portfolio-web/static/media/portfolio.712c0c70263a769cc2191930b980cc45.svg",
+    "static/media/todo app.svg": "/portfolio-web/static/media/todo app.c60801fbea533c779a5f2db73f24d27d.svg",
+    "static/media/Resume.pdf": "/portfolio-web/static/media/Resume.d749d68c5ac44cd0616d.pdf",
+    "index.html": "/portfolio-web/index.html",
+    "main.4c695e98.css.map": "/portfolio-web/static/css/main.4c695e98.css.map",
+    "main.8f52916d.js.map": "/portfolio-web/static/js/main.8f52916d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c695e98.css",
+    "static/js/main.8f52916d.js"
+  ]
+}
