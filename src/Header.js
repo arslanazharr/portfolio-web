@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header-div">
           <p className="name-header">
             <a
-              href="https://arslanazharr.github.io/my-portfolio/"
+              href="https://arslanazharr.github.io/portfolio-web/"
               style={{
                 textDecoration: "none",
                 backgroundColor: "inherit",
@@ -21,7 +21,7 @@ const Header = () => {
           </p>
           <span>
             <a
-              href="https://arslanazharr.github.io/my-portfolio/"
+              href="https://arslanazharr.github.io/portfolio-web/"
               style={{
                 textDecoration: "none",
                 backgroundColor: "inherit",

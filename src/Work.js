@@ -17,7 +17,7 @@ const Work = () => {
       </h3>
       <div className="container">
         <div className="box" data-aos="zoom-in-up">
-          <a href="https://arslanazharr.github.io/my-portfolio/" target="new">
+          <a href="https://arslanazharr.github.io/portfolio-web/" target="new">
             <img src={portfolio}></img>
             <div className="overlay">
               <h3>Arslan Azhar</h3>
