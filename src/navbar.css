@@ -82,33 +82,33 @@
 }
 @media (min-width: 641px) and (max-width: 768px) {
   .navbar a {
-    margin: 2px 6px 2px 6px;
-    padding: 6px;
+    margin: 2px 7px 2px 7px;
+    padding: 7px;
     height: 31px;
     font-size: 19px;
   }
 }
 
-@media (min-width: 426px) and (max-width: 640px) {
+@media (min-width: 426px) and (max-width: 641px) {
   .navbar {
-    padding: 14px;
+    padding: 18px;
   }
   .navbar a {
-    margin: 2px 4px 2px 3px;
-    padding: 4px;
-    height: 20px;
-    font-size: 16px;
+    margin: 0 7px 0 7px;
+    padding: 0 7px 0 7px;
+    height: 24px;
+    font-size: 17px;
   }
 }
 
 @media (min-width: 0) and (max-width: 426px) {
   .navbar {
-    padding: 13px;
+    padding: 18px;
   }
   .navbar a {
-    margin: 0 2px 0 2px;
-    padding: 0 4px 0 4px;
+    margin: 0 4px 0 4px;
+    padding: 0 5px 0 5px;
     height: 20px;
-    font-size: 14px;
+    font-size: 15px;
   }
 }
