@@ -40,8 +40,71 @@
   transition: 0.3s;
 }
 
-.navbar a:hover {
-  color: #1a191789;
+#animation1 {
+  text-decoration: none;
+}
+#animation1:after {
+  content: "";
+  position: absolute;
+  background-color: #1a1917;
+  height: 3px;
+  bottom: 10px;
+  left: 48px;
+  width: 0;
+  transition: all ease 0.3s;
+}
+#animation1:hover:after {
+  width: 50px;
+}
+
+#animation2 {
+  text-decoration: none;
+}
+#animation2:after {
+  content: "";
+  position: absolute;
+  background-color: #1a1917;
+  height: 3px;
+  bottom: 10px;
+  left: 134px;
+  width: 0;
+  transition: all ease 0.3s;
+}
+#animation2:hover:after {
+  width: 58px;
+}
+
+#animation3 {
+  text-decoration: none;
+}
+#animation3:after {
+  content: "";
+  position: absolute;
+  background-color: #1a1917;
+  height: 3px;
+  bottom: 10px;
+  left: 228px;
+  width: 0;
+  transition: all ease 0.3s;
+}
+#animation3:hover:after {
+  width: 77px;
+}
+#animation4 {
+  text-decoration: none;
+}
+#animation4:after {
+  content: "";
+  position: absolute;
+  background-color: #1a1917;
+  height: 3px;
+  bottom: 10px;
+  left: 339px;
+  width: 0;
+  transition: all ease 0.3s;
+}
+#animation4:hover:after {
+  width: 74px;
 }
 
 .show {
@@ -79,6 +142,72 @@
     height: 33px;
     font-size: 20px;
   }
+  #animation1 {
+    text-decoration: none;
+  }
+  #animation1:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 47px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation1:hover:after {
+    width: 49px;
+  }
+
+  #animation2 {
+    text-decoration: none;
+  }
+  #animation2:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 126px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation2:hover:after {
+    width: 60px;
+  }
+
+  #animation3 {
+    text-decoration: none;
+  }
+  #animation3:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 216px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation3:hover:after {
+    width: 74px;
+  }
+  #animation4 {
+    text-decoration: none;
+  }
+  #animation4:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 320px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation4:hover:after {
+    width: 74px;
+  }
 }
 @media (min-width: 641px) and (max-width: 768px) {
   .navbar a {
@@ -86,6 +215,72 @@
     padding: 7px;
     height: 31px;
     font-size: 19px;
+  }
+  #animation1 {
+    text-decoration: none;
+  }
+  #animation1:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 45px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation1:hover:after {
+    width: 48px;
+  }
+
+  #animation2 {
+    text-decoration: none;
+  }
+  #animation2:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 120px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation2:hover:after {
+    width: 57px;
+  }
+
+  #animation3 {
+    text-decoration: none;
+  }
+  #animation3:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 204px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation3:hover:after {
+    width: 74px;
+  }
+  #animation4 {
+    text-decoration: none;
+  }
+  #animation4:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 303px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation4:hover:after {
+    width: 70px;
   }
 }
 
@@ -99,6 +294,72 @@
     height: 24px;
     font-size: 17px;
   }
+  #animation1 {
+    text-decoration: none;
+  }
+  #animation1:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 33px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation1:hover:after {
+    width: 42px;
+  }
+
+  #animation2 {
+    text-decoration: none;
+  }
+  #animation2:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 102px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation2:hover:after {
+    width: 50px;
+  }
+
+  #animation3 {
+    text-decoration: none;
+  }
+  #animation3:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 180px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation3:hover:after {
+    width: 65px;
+  }
+  #animation4 {
+    text-decoration: none;
+  }
+  #animation4:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 272px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation4:hover:after {
+    width: 61px;
+  }
 }
 
 @media (min-width: 0) and (max-width: 426px) {
@@ -110,5 +371,71 @@
     padding: 0 5px 0 5px;
     height: 20px;
     font-size: 15px;
+  }
+  #animation1 {
+    text-decoration: none;
+  }
+  #animation1:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 28px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation1:hover:after {
+    width: 36px;
+  }
+
+  #animation2 {
+    text-decoration: none;
+  }
+  #animation2:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 82px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation2:hover:after {
+    width: 46px;
+  }
+
+  #animation3 {
+    text-decoration: none;
+  }
+  #animation3:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 145px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation3:hover:after {
+    width: 56px;
+  }
+  #animation4 {
+    text-decoration: none;
+  }
+  #animation4:after {
+    content: "";
+    position: absolute;
+    background-color: #1a1917;
+    height: 3px;
+    bottom: 10px;
+    left: 219px;
+    width: 0;
+    transition: all ease 0.3s;
+  }
+  #animation4:hover:after {
+    width: 55px;
   }
 }

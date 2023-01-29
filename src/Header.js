@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import document from "./document/Resume.pdf";
+import document from "./document/Arslan-Resume.pdf";
 
 const Header = () => {
   return (
@@ -66,7 +66,7 @@ const Header = () => {
                   backgroundColor: "inherit",
                   color: "inherit",
                 }}
-                href="https://www.linkedin.com/in/arslanazharr/"
+                href=""
                 target="new"
               >
                 LinkedIn
