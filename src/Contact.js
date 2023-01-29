@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <h3 className="contact-heading" data-aos="fade-up">
-        Get in touch with with me
+        Get in touch with me
       </h3>
       <p className="contact-paragraph" data-aos="fade-up">
         If you want to team up or just chat, you can write me an{" "}
