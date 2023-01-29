@@ -18,7 +18,7 @@ const Contact = () => {
           Email
         </a>{" "}
         or hit me up via{" "}
-        <a href="" target="new">
+        <a href="https://www.linkedin.com/in/arslanazharr/" target="new">
           LinkedIn
         </a>
         . You can also find a small collection of my previous work on{" "}

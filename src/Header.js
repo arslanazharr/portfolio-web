@@ -66,7 +66,7 @@ const Header = () => {
                   backgroundColor: "inherit",
                   color: "inherit",
                 }}
-                href=""
+                href="https://www.linkedin.com/in/arslanazharr/"
                 target="new"
               >
                 LinkedIn
